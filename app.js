@@ -6,7 +6,6 @@ class Book {
       this.isbn = isbn;
     }
   }
-  
   // UI Class: Handle UI Tasks
   class UI {
     static displayBooks() {
@@ -19,8 +18,7 @@ class Book {
       const list = document.querySelector('#book-list');
   
       const row = document.createElement('tr');
-  
-      row.innerHTML = `
+        row.innerHTML = `
         <td>${book.title}</td>
         <td>${book.author}</td>
         <td>${book.isbn}</td>
